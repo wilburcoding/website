@@ -41,8 +41,7 @@ export default function Navbar() {
         </div>
         <div className="flex flex-row gap-x-4 items-center justify-end w-auto flex-shrink-0">
           <ThemeSwitch />
-          {status === "authenticated" ? (
-            <>
+             <>
               <Link href="/attendance">
                 <div
                   onMouseEnter={() => setTooltip(true)}
@@ -67,7 +66,6 @@ export default function Navbar() {
                 Sign In Attendance
               </span>
             </>
-          ) : null}
           {status === "authenticated" ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
