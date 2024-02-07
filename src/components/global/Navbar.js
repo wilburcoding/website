@@ -91,20 +91,7 @@ export default function Navbar() {
             </svg>
           ) : (
             <Link href="/sign-in">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-auto w-8 hidden xl:block cursor-pointer hover:scale-105 ease-linear transition-[3s] active:scale-95"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#fff"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
-                />
-              </svg>
+              <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a9 9 0 0 0 5-1.5 4 4 0 0 0-4-3.5h-2a4 4 0 0 0-4 3.5 9 9 0 0 0 5 1.5Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
             </Link>
           )}
           {hamButton ? (
